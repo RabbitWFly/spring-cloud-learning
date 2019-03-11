@@ -4,7 +4,19 @@ spring:
   cloud:
     gateway:
       routes:
-      - id: path_route
-        uri: https://www.baidu.com
+      - id: fsh-house
+        uri: lb://fsh-house
         predicates:
-        - Path=/course
+        - Path=/house/**
+  application:
+    name: rabbit-gateway
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://rabbit:123456@master:8761/eureka/
+
+
+
+
