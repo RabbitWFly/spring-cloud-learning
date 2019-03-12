@@ -2,6 +2,8 @@ package com.rabbit.fsh.substitution.controller;
 
 import com.rabbit.fsh.substitution.dto.HouseInfo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
@@ -18,9 +20,21 @@ public class SubstitutionController {
     @Autowired
     private RestTemplate restTemplate;
 
+    @Autowired
+    private LoadBalancerClient loadBalancer;
+
+    @GetMapping("/choose")
+    public Object chooseUrl(){
+        ServiceInstance instance = loadBalancer.choose("fsh-house");
+        return instance;
+    }
+
     @GetMapping("/callHello")
     public String callHello(){
-        return restTemplate.getForObject("http://fsh-house/house/hello", String.class);
+//        return restTemplate.getForObject("http://fsh-house/house/hello", String.class);
+        String result = restTemplate.getForObject("http://fsh-house/house/hello", String.class);
+        System.out.println("调用结果: " + result);
+        return result;
     }
 
     @GetMapping("/data")

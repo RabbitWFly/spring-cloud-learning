@@ -1,6 +1,7 @@
 package com.rabbit.fsh.house.controller;
 
 import com.rabbit.fsh.house.po.HouseInfo;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -12,9 +13,13 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/house")
 public class HouseController {
 
+    @Value("${server.port}")
+    private String serverPort;
+
     @GetMapping("/hello")
     public String hello(){
-        return "hello";
+        System.err.println("call hello");
+        return "Hello" + serverPort;
     }
 
     @GetMapping("/data")
