@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hystrix/hystrix.iml" filepath="$PROJECT_DIR$/hystrix/hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-api-client/rabbit-api-client.iml" filepath="$PROJECT_DIR$/rabbit-api-client/rabbit-api-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-eureka/rabbit-eureka.iml" filepath="$PROJECT_DIR$/rabbit-eureka/rabbit-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-fsh-house/rabbit-fsh-house-service.iml" filepath="$PROJECT_DIR$/rabbit-fsh-house/rabbit-fsh-house-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-fsh-substitution-service/rabbit-fsh-substitution-service.iml" filepath="$PROJECT_DIR$/rabbit-fsh-substitution-service/rabbit-fsh-substitution-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-gateway/rabbit-gateway.iml" filepath="$PROJECT_DIR$/rabbit-gateway/rabbit-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-hystrix-dashboard/rabbit-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/rabbit-hystrix-dashboard/rabbit-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-learning.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-learning.iml" />
+    </modules>
+  </component>
+</project>

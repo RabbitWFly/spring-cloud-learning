@@ -1,5 +1,8 @@
 package com.rabbit.fsh.substitution.controller;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
+import com.rabbit.api.client.house.HouseRemoteClient;
 import com.rabbit.fsh.substitution.dto.HouseInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
@@ -23,6 +26,9 @@ public class SubstitutionController {
     @Autowired
     private LoadBalancerClient loadBalancer;
 
+    @Autowired
+    private HouseRemoteClient houseRemoteClient;
+
     @GetMapping("/choose")
     public Object chooseUrl(){
         ServiceInstance instance = loadBalancer.choose("fsh-house");
@@ -30,11 +36,19 @@ public class SubstitutionController {
     }
 
     @GetMapping("/callHello")
+    @HystrixCommand(fallbackMethod = "defaultCallHello", commandProperties = {
+            @HystrixProperty(name = "execution.isolation.thread.interruptOnTimeout", value = "false")
+    })
     public String callHello(){
 //        return restTemplate.getForObject("http://fsh-house/house/hello", String.class);
-        String result = restTemplate.getForObject("http://fsh-house/house/hello", String.class);
+//        String result = restTemplate.getForObject("http://fsh-house/house/hello", String.class);
+        String result = houseRemoteClient.hello();
         System.out.println("调用结果: " + result);
         return result;
+    }
+
+    private String defaultCallHello(){
+        return "fail";
     }
 
     @GetMapping("/data")
