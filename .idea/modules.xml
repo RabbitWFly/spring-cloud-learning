@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/hystrix/hystrix.iml" filepath="$PROJECT_DIR$/hystrix/hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbit-api-client/rabbit-api-client.iml" filepath="$PROJECT_DIR$/rabbit-api-client/rabbit-api-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbit-eureka/rabbit-eureka.iml" filepath="$PROJECT_DIR$/rabbit-eureka/rabbit-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-fsh-api/rabbit-fsh-api.iml" filepath="$PROJECT_DIR$/rabbit-fsh-api/rabbit-fsh-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbit-fsh-house/rabbit-fsh-house-service.iml" filepath="$PROJECT_DIR$/rabbit-fsh-house/rabbit-fsh-house-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbit-fsh-substitution-service/rabbit-fsh-substitution-service.iml" filepath="$PROJECT_DIR$/rabbit-fsh-substitution-service/rabbit-fsh-substitution-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbit-gateway/rabbit-gateway.iml" filepath="$PROJECT_DIR$/rabbit-gateway/rabbit-gateway.iml" />
