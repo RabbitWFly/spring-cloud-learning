@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit-hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit-fsh-api/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-common/pom.xml" />
       </list>
     </option>
   </component>
