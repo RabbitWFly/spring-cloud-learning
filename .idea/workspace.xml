@@ -2,41 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="a3061e8c-6b79-40d5-9c9a-326e74e545cc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_transmittable_thread_local_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/anno/ApiRateLimit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/aspect/ApiLimitAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/base/PageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/base/PageQueryParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/base/ResponseCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/base/ResponseData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/base/StartCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/exception/GlobalException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/exception/LimitException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/exception/ParamException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/exception/ServerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/filter/HttpBasicAuthorizeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/filter/HttpHeaderParamFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/listenter/InitApiLimitRateListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/support/DefaultRibbonFilterContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/support/RibbonFilterContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/support/RibbonFilterContextHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/util/ClasspathPackageScannerUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/util/DingDingMessageUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/util/IpUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/util/JWTUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/util/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/util/NetUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/util/RSAUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/util/ServerPortUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/util/StringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/conf/BasicConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/config/FilterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/filter/ErrorFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/filter/IpFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/listenter/InitApiLimitRateListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/listenter/InitApiLimitRateListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-fsh-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-fsh-api/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/rabbit-eureka/target/" />
     <ignored path="$PROJECT_DIR$/rabbit-gateway/target/" />
@@ -71,61 +43,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="GlobalExceptionHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/exception/GlobalExceptionHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="846">
-              <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LimitException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/exception/LimitException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-              <folding>
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParamException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/exception/ParamException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-              <folding>
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/exception/ServerException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-              <folding>
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HttpBasicAuthorizeFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/filter/HttpBasicAuthorizeFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="1222">
               <caret line="47" column="89" selection-start-line="47" selection-start-column="89" selection-end-line="47" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -134,14 +55,105 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InitApiLimitRateListener.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InitApiLimitRateListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/listenter/InitApiLimitRateListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-142">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            <state relative-caret-position="115">
+              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
               <folding>
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#851#852#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicConf.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/conf/BasicConf.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+              <folding>
+                <element signature="e#617#618#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#809#810#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#983#984#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
+                <element signature="e#1083#1084#0" expanded="true" />
+                <element signature="e#1137#1138#0" expanded="true" />
+                <element signature="e#1177#1178#0" expanded="true" />
+                <element signature="e#1213#1214#0" expanded="true" />
+                <element signature="e#1271#1272#0" expanded="true" />
+                <element signature="e#1321#1322#0" expanded="true" />
+                <element signature="e#1359#1360#0" expanded="true" />
+                <element signature="e#1393#1394#0" expanded="true" />
+                <element signature="e#1447#1448#0" expanded="true" />
+                <element signature="e#1493#1494#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IpFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/filter/IpFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="49" column="33" lean-forward="true" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ErrorFilter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/filter/ErrorFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilterConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/config/FilterConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,7 +162,7 @@
       <file leaf-file-name="HttpHeaderParamFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/filter/HttpHeaderParamFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="754">
               <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -162,15 +174,8 @@
       <file leaf-file-name="RibbonFilterContextHolder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/support/RibbonFilterContextHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
+            <state relative-caret-position="338">
               <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-              <folding>
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#610#611#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -178,25 +183,11 @@
       <file leaf-file-name="DefaultRibbonFilterContext.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/support/DefaultRibbonFilterContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-84">
+            <state relative-caret-position="104">
               <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#233#249#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#737#738#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RibbonFilterContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/support/RibbonFilterContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -217,10 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rabbit-api-client/src/main/java/com/rabbit/api/client/RabbitFshSubstitutionServiceApplication.java" />
-        <option value="$PROJECT_DIR$/rabbit-api-client/src/main/java/com/rabbit/api/client/Application.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/rabbit-api-client/src/main/java/com/rabbit/api/client/config/FeignConfiguration.java" />
         <option value="$PROJECT_DIR$/rabbit-api-client/src/main/java/com/rabbit/api/client/config/FeignBasicAuthRequestInterceptor.java" />
         <option value="$PROJECT_DIR$/hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit-fsh-substitution-service/src/main/java/com/rabbit/fsh/substitution/RabbitFshSubstitutionServiceApplication.java" />
@@ -268,6 +255,10 @@
         <option value="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/filter/HttpHeaderParamFilter.java" />
         <option value="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/filter/HttpBasicAuthorizeFilter.java" />
         <option value="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/listenter/InitApiLimitRateListener.java" />
+        <option value="$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/conf/BasicConf.java" />
+        <option value="$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/filter/IpFilter.java" />
+        <option value="$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/config/FilterConfig.java" />
+        <option value="$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/filter/ErrorFilter.java" />
       </list>
     </option>
   </component>
@@ -310,7 +301,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-2" />
     <option name="y" value="33" />
     <option name="width" value="1440" />
@@ -324,6 +315,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -374,37 +366,72 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="listenter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbit-fsh-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbit-fsh-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbit-fsh-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbit-fsh-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbit-fsh-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbit-fsh-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbit-fsh-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbit-fsh-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
@@ -513,7 +540,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -701,7 +727,8 @@
       <workItem from="1553564231577" duration="1478000" />
       <workItem from="1553603244853" duration="711000" />
       <workItem from="1553603974053" duration="3389000" />
-      <workItem from="1553692002936" duration="1054000" />
+      <workItem from="1553692002936" duration="1467000" />
+      <workItem from="1553778285938" duration="1784000" />
     </task>
     <task id="LOCAL-00001" summary="ribbion测试前期内容">
       <created>1552311221504</created>
@@ -714,10 +741,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39530000" />
+    <option name="totallyTimeSpent" value="41727000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="33" width="1440" height="878" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -738,18 +765,18 @@
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32876712" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35068494" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32739726" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.5972603" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49782923" visible="true" weight="0.2849315" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2894356" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49782923" visible="true" weight="0.23287672" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31910276" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.6714906" weight="0.49041095" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.6714906" weight="0.49041095" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -811,34 +838,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="ribbion测试前期内容" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hystrix/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbit-api-client/src/main/java/com/rabbit/api/client/house/dto/HouseInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1508">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbit-api-client/src/main/java/com/rabbit/api/client/house/dto/HouseListDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbit-api-client/src/main/java/com/rabbit/api/client/house/dto/HouseInfoDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rabbit-api-client/src/main/java/com/rabbit/api/client/house/HouseRemoteClientHystrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -901,13 +900,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1378">
-          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbit-hystrix-dashboard/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1182,7 +1174,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/exception/GlobalExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
+        <state relative-caret-position="1378">
           <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1192,76 +1184,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/exception/LimitException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
+        <state relative-caret-position="312">
           <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/exception/ParamException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
+        <state relative-caret-position="312">
           <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/exception/ServerException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="338">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/support/RibbonFilterContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="442">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/support/RibbonFilterContextHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
+        <state relative-caret-position="338">
           <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/support/DefaultRibbonFilterContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
+        <state relative-caret-position="104">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#233#249#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/filter/HttpHeaderParamFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="754">
           <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1271,7 +1239,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/filter/HttpBasicAuthorizeFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state relative-caret-position="1222">
           <caret line="47" column="89" selection-start-line="47" selection-start-column="89" selection-end-line="47" selection-end-column="89" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1281,11 +1249,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/listenter/InitApiLimitRateListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-142">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="115">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
           <folding>
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/conf/BasicConf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1271#1272#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1359#1360#0" expanded="true" />
+            <element signature="e#1393#1394#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/config/FilterConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/filter/IpFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="49" column="33" lean-forward="true" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/filter/ErrorFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
           </folding>
         </state>
       </provider>

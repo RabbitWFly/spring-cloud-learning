@@ -18,7 +18,7 @@ import java.util.concurrent.Semaphore;
  * Description 初始化需要进行并发限制的API
  **/
 public class InitApiLimitRateListener implements ApplicationListener<ApplicationPreparedEvent> {
-    // Controller包路径
+    /** Controller包路径*/
     private String controllerPath;
 
     public InitApiLimitRateListener(String controllerPath) {
