@@ -32,11 +32,11 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-feign</artifactId>
 		</dependency>
-		<!--<dependency>-->
-			<!--<groupId>com.rabbit</groupId>-->
-			<!--<artifactId>rabbit-common</artifactId>-->
-			<!--<version>1.0</version>-->
-		<!--</dependency>-->
+		<dependency>
+			<groupId>com.rabbit</groupId>
+			<artifactId>rabbit-common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<dependency>
 			<groupId>com.rabbit</groupId>
 			<artifactId>rabbit-api-client</artifactId>
