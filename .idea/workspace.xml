@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="a3061e8c-6b79-40d5-9c9a-326e74e545cc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/controller/ErrorHandlerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/fallback/ServiceConsumerFallbackProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/base/StartCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/base/StartCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-fsh-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-fsh-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/conf/BasicConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/conf/BasicConf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/filter/IpFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/filter/IpFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-fsh-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-fsh-api/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/rabbit-eureka/target/" />
     <ignored path="$PROJECT_DIR$/rabbit-gateway/target/" />
@@ -44,29 +39,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-609">
-              <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServiceConsumerFallbackProvider.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ServiceConsumerFallbackProvider.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/fallback/ServiceConsumerFallbackProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1297">
-              <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+            <state relative-caret-position="113">
+              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1069#1070#0" expanded="true" />
@@ -76,28 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cxytiandi-conf-client-1.0.pom" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.m2/screpos/com/cxytiandi/cxytiandi-conf-client/1.0/cxytiandi-conf-client-1.0.pom">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="BasicConf.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/conf/BasicConf.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IpFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/filter/IpFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="211">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,35 +74,70 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StartCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/base/StartCommand.java">
+      <file leaf-file-name="FilterConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/config/FilterConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
+            <state relative-caret-position="123">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HouseRemoteClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbit-api-client/src/main/java/com/rabbit/api/client/house/HouseRemoteClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HouseController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbit-fsh-house/src/main/java/com/rabbit/fsh/house/controller/HouseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
               <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ErrorFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/filter/ErrorFilter.java">
+      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="130">
+              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ErrorHandlerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/controller/ErrorHandlerController.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbit-zipkin/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="1180">
+              <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbit-zipkin/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RabbitZipkinApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rabbit-zipkin/src/main/java/com/rabbit/zipkin/RabbitZipkinApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,9 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rabbit-fsh-substitution-service/src/main/java/com/rabbit/fsh/substitution/RabbitFshSubstitutionServiceApplication.java" />
-        <option value="$PROJECT_DIR$/rabbit-api-client/src/main/java/com/rabbit/api/client/house/dto/HouseInfo.java" />
-        <option value="$PROJECT_DIR$/rabbit-api-client/src/main/java/com/rabbit/api/client/house/dto/HouseListDto.java" />
         <option value="$PROJECT_DIR$/rabbit-api-client/src/main/java/com/rabbit/api/client/house/dto/HouseInfoDto.java" />
         <option value="$PROJECT_DIR$/rabbit-api-client/src/main/java/com/rabbit/api/client/house/HouseRemoteClient.java" />
         <option value="$PROJECT_DIR$/rabbit-api-client/src/main/java/com/rabbit/api/client/house/HouseRemoteClientHystrix.java" />
@@ -177,7 +178,6 @@
         <option value="$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/RabbitFshApiApplication.java" />
         <option value="$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/controller/LocalController.java" />
         <option value="$PROJECT_DIR$/rabbit-common/pom.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/ApiRateLimit.java" />
         <option value="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/anno/ApiRateLimit.java" />
         <option value="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/util/StringUtil.java" />
@@ -206,7 +206,6 @@
         <option value="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/filter/HttpBasicAuthorizeFilter.java" />
         <option value="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/listenter/InitApiLimitRateListener.java" />
         <option value="$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/filter/ErrorFilter.java" />
-        <option value="$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/config/FilterConfig.java" />
         <option value="$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/conf/BasicConf.java" />
         <option value="$PROJECT_DIR$/rabbit-common/src/main/java/com/rabbit/common/base/StartCommand.java" />
         <option value="$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/filter/IpFilter.java" />
@@ -214,6 +213,11 @@
         <option value="$PROJECT_DIR$/rabbit-fsh-api/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit-fsh-api/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/fallback/ServiceConsumerFallbackProvider.java" />
+        <option value="$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/config/FilterConfig.java" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/rabbit-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-zipkin/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/rabbit-zipkin/src/main/java/com/rabbit/zipkin/RabbitZipkinApplication.java" />
       </list>
     </option>
   </component>
@@ -228,7 +232,6 @@
       <MavenGeneralSettings>
         <option name="localRepository" value="$USER_HOME$/.m2/screpos" />
         <option name="mavenHome" value="$USER_HOME$/apache-maven-3.5.2" />
-        <option name="userSettingsFile" value="$USER_HOME$/apache-maven-3.5.2/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -257,7 +260,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="x" value="7" />
+    <option name="y" value="50" />
     <option name="width" value="1440" />
     <option name="height" value="878" />
   </component>
@@ -280,198 +284,13 @@
             <path>
               <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-api" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbit-zipkin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-api" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbit-zipkin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="fallback" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-house" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="house" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="house" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-substitution-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-substitution-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-substitution-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-substitution-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-substitution-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="substitution" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-fsh-substitution-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="substitution" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -522,7 +341,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RabbitFshApiApplication">
+  <component name="RunManager" selected="Spring Boot.RabbitZipkinApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -600,6 +419,16 @@
       <module name="rabbit-hystrix-dashboard" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rabbit.dashboard.RabbitHystrixDashboardApplication" />
     </configuration>
+    <configuration name="RabbitZipkinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rabbit-zipkin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rabbit.zipkin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rabbit.zipkin.RabbitZipkinApplication" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -632,9 +461,11 @@
       <item itemvalue="Spring Boot.RabbitFshSubstitutionServiceApplication" />
       <item itemvalue="Spring Boot.RabbitApiClientApplication" />
       <item itemvalue="Spring Boot.RabbitFshApiApplication" />
+      <item itemvalue="Spring Boot.RabbitZipkinApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.RabbitZipkinApplication" />
         <item itemvalue="Spring Boot.RabbitFshApiApplication" />
         <item itemvalue="Spring Boot.RabbitFshSubstitutionServiceApplication" />
         <item itemvalue="Spring Boot.RabbitApiClientApplication" />
@@ -666,7 +497,7 @@
       <workItem from="1553603974053" duration="3389000" />
       <workItem from="1553692002936" duration="1467000" />
       <workItem from="1553778285938" duration="2525000" />
-      <workItem from="1553868001738" duration="4911000" />
+      <workItem from="1553868001738" duration="7825000" />
     </task>
     <task id="LOCAL-00001" summary="ribbion测试前期内容">
       <created>1552311221504</created>
@@ -679,15 +510,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47379000" />
+    <option name="totallyTimeSpent" value="50293000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="878" extended-state="0" />
-    <editor active="true" />
+    <frame x="7" y="50" width="1440" height="878" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Gerrit" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007236" side_tool="true" weight="0.41917807" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007236" side_tool="true" weight="0.4260274" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.28437048" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -696,7 +526,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4992764" visible="true" weight="0.087671235" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.65557164" visible="true" weight="0.4369863" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.6714906" weight="0.5082192" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -704,10 +534,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32876712" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35068494" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.5972603" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4992764" weight="0.5150685" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49782923" weight="0.29589042" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29088277" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49782923" weight="0.0890411" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3560058" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -776,28 +606,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="ribbion测试前期内容" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rabbit-hystrix-dashboard/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbit-hystrix-dashboard/src/test/java/com/rabbit/dashboard/RabbitHystrixDashboardApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/rabbit-hystrix-dashboard/src/main/java/com/rabbit/dashboard/RabbitHystrixDashboardApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbit-api-client/src/main/java/com/rabbit/api/client/house/HouseRemoteClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -823,13 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbit-fsh-house/src/main/java/com/rabbit/fsh/house/controller/HouseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/controller/LocalController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -841,13 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="863">
           <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -876,6 +670,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2614#2630#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -941,6 +739,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1898">
           <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding>
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+            <element signature="e#1248#1249#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1374#1375#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1442#1443#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -948,6 +760,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#1527#1528#0" expanded="true" />
+            <element signature="e#1566#1567#0" expanded="true" />
+            <element signature="e#1600#1601#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
+            <element signature="e#1696#1697#0" expanded="true" />
+            <element signature="e#1730#1731#0" expanded="true" />
+            <element signature="e#1767#1768#0" expanded="true" />
+            <element signature="e#1802#1803#0" expanded="true" />
+            <element signature="e#1856#1857#0" expanded="true" />
+            <element signature="e#1904#1905#0" expanded="true" />
+            <element signature="e#1939#1940#0" expanded="true" />
+            <element signature="e#1973#1974#0" expanded="true" />
+            <element signature="e#2024#2025#0" expanded="true" />
+            <element signature="e#2070#2071#0" expanded="true" />
+            <element signature="e#2104#2105#0" expanded="true" />
+            <element signature="e#2137#2138#0" expanded="true" />
+            <element signature="e#2186#2187#0" expanded="true" />
+            <element signature="e#2230#2231#0" expanded="true" />
+            <element signature="e#2271#2272#0" expanded="true" />
+            <element signature="e#2303#2304#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -987,6 +826,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="764">
           <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -994,6 +841,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1378">
           <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1074,16 +924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/config/FilterConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.m2/screpos/com/cxytiandi/cxytiandi-conf-client/1.0/cxytiandi-conf-client-1.0.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1117,16 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/filter/IpFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/controller/ErrorHandlerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1140,7 +970,7 @@
     <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1161,18 +991,85 @@
     <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-609">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/fallback/ServiceConsumerFallbackProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1297">
-          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+        <state relative-caret-position="113">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1069#1070#0" expanded="true" />
             <element signature="e#1095#1096#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/filter/IpFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbit-fsh-api/src/main/java/com/rabbit/fsh/api/config/FilterConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbit-api-client/src/main/java/com/rabbit/api/client/house/HouseRemoteClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbit-fsh-house/src/main/java/com/rabbit/fsh/house/controller/HouseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbit-zipkin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1180">
+          <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbit-zipkin/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbit-zipkin/src/main/java/com/rabbit/zipkin/RabbitZipkinApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1229,7 +1126,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>rabbit-fsh-api</last-edited>
+          <last-edited>rabbit-zipkin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
