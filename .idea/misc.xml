@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/rabbit-fsh-api/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit-common/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-auth-service/pom.xml" />
       </list>
     </option>
   </component>
