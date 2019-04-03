@@ -22,5 +22,6 @@ public class FilterConfig {
     public ErrorFilter errorFilter(){
         return new ErrorFilter();
     }
+
 }
 
