@@ -1,7 +1,10 @@
 package com.rabbit.api.client.config;
 
+import com.rabbit.common.support.RibbonFilterContextHolder;
 import feign.RequestInterceptor;
 import feign.RequestTemplate;
+
+import java.util.Map;
 
 /**
  * @Author chentao
@@ -15,9 +18,15 @@ public class FeignBasicAuthRequestInterceptor implements RequestInterceptor {
     }
 
     @Override
-    public void apply(RequestTemplate requestTemplate) {
-        requestTemplate.header("Authorization", System.getProperty("rabbit.auth.token"));
-//        Map<String, String> attributes = RibbonFilterC
+    public void apply(RequestTemplate template) {
+        template.header("Authorization", System.getProperty("rabbit.auth.token"));
+        Map<String, String> attributes = RibbonFilterContextHolder.getCurrentContext().getAttributes();
+        for (String key :  attributes.keySet()) {
+            String value = attributes.get(key);
+            System.out.println("feign :" + key + "\t" + value);
+            template.header(key, value);
+        }
+
     }
 }
 

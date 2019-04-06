@@ -2,7 +2,6 @@ package com.rabbit.fsh.house.config;
 
 import com.rabbit.common.filter.HttpBasicAuthorizeFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
-import org.springframework.context.annotation.Configuration;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +11,7 @@ import java.util.List;
  * Date 2019/4/3
  * Description 过滤器配置
  **/
-@Configuration
+//@Configuration
 public class FilterConfig {
 
 //    @Bean

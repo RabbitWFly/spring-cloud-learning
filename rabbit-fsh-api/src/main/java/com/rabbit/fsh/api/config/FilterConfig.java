@@ -1,5 +1,6 @@
 package com.rabbit.fsh.api.config;
 
+import com.rabbit.fsh.api.filter.AuthHeaderFilter;
 import com.rabbit.fsh.api.filter.ErrorFilter;
 import com.rabbit.fsh.api.filter.IpFilter;
 import org.springframework.context.annotation.Bean;
@@ -21,6 +22,11 @@ public class FilterConfig {
     @Bean
     public ErrorFilter errorFilter(){
         return new ErrorFilter();
+    }
+
+//    @Bean
+    public AuthHeaderFilter preRequestLogFilter() {
+        return new AuthHeaderFilter();
     }
 
 }
