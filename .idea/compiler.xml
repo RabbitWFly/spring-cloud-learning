@@ -9,6 +9,7 @@
         <module name="hystrix" />
         <module name="rabbit-api-client" />
         <module name="rabbit-auth-service" />
+        <module name="rabbit-boot-admin" />
         <module name="rabbit-common" />
         <module name="rabbit-eureka" />
         <module name="rabbit-fsh-api" />
@@ -23,6 +24,7 @@
       <module name="hystrix" target="1.5" />
       <module name="rabbit-api-client" target="1.8" />
       <module name="rabbit-auth-service" target="1.8" />
+      <module name="rabbit-boot-admin" target="1.8" />
       <module name="rabbit-common" target="1.8" />
       <module name="rabbit-eureka" target="1.8" />
       <module name="rabbit-fsh-api" target="1.8" />
